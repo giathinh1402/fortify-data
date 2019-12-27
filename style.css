@@ -1,17 +1,17 @@
 /* header */
 
 .img-header {
-    width: 1460px;
+    width: 1340px;
     height: 500px;
 }
 
 .text-header {
     position: absolute;
-    top: 37%;
-    left: 53%;
+    top: 42%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    font-family: Proxima Nova;
-    font-size: 55px;
+    font-family: "proxima-nova";
+    font-size: 44px;
     line-height: 150%;
     color: #FFFFFF;
 }
@@ -20,7 +20,7 @@
     position: absolute;
     width: 197px;
     height: 27px;
-    left: 641px;
+    left: 580px;
     top: 559px;
 }
 
@@ -28,12 +28,12 @@
     position: absolute;
     width: 641px;
     height: 110px;
-    left: 430px;
+    left: 345px;
     top: 643px;
 }
 
 #content-h6 {
-    font-family: Proxima Nova;
+    font-family: "proxima-nova";
     font-size: 20px;
     line-height: 27px;
     /* identical to box height */
@@ -43,7 +43,7 @@
 }
 
 #content-a {
-    font-family: Proxima Nova;
+    font-family: "proxima-nova";
     font-size: 45px;
     line-height: 55px;
     text-align: center;
@@ -55,32 +55,39 @@
 
 section {
     margin-top: 300px;
-    margin-left: 144px;
-    padding: 5px;
+    margin-left: 140px;
+    padding: 20px;
     text-align: center;
 }
 
 .text {
-    font-family: Proxima Nova;
+    font-family: "proxima-nova";
     font-size: 14px;
     line-height: 200%;
     text-align: center;
 }
 
+p {
+    font-family: "proxima-nova";
+    color: #696969;
+    font-size: 16px;
+}
+
 .item {
-    width: 20%;
-    padding: 52px;
+    width: 28%;
+    height: 388px;
+    padding: 15px;
     float: left;
 }
 
 .border {
-    width: 283px;
-    padding: 2px;
+    width: 313px;
+    height: 375px;
     box-shadow: 5px 9px 15px #d6d6d6;
 }
 
 img {
-    margin-top: 10px;
+    margin-top: 35px;
     width: 60px;
     height: 60px;
 }
@@ -91,24 +98,217 @@ img {
     height: 50px;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 414px) {
     .text-header {
+        position: absolute;
+        top: 29%;
+        left: 169%;
+        transform: translate(-50%, -50%);
+        font-family: "proxima-nova";
+        font-size: 130px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .content {
+        position: absolute;
+        left: 332px;
+        top: 515px;
+    }
+    #content-h6 {
+        font-family: "proxima-nova";
+        font-size: 85px;
+        text-align: center;
+        letter-spacing: 0.25em;
+        color: #8F8F8F;
+    }
+    #content-a {
+        font-family: "proxima-nova";
+        font-size: 85px;
+        line-height: 80px;
+        text-align: center;
         color: #00182E;
+    }
+    .content-text {
+        position: absolute;
+        width: 1113px;
+        height: 52px;
+        left: 129px;
+        top: 824px;
+    }
+    /* Border */
+    section {
+        margin-top: 300px;
+        margin-left: 62px;
+        padding: 144px;
+        text-align: center;
+    }
+    .border {
+        width: 1114px;
+        height: 1085px;
+        ;
+        box-shadow: 5px 9px 15px #d6d6d6;
+        margin-left: -166px;
+    }
+    .border h4 {
+        font-size: 89px;
+        margin-left: 48px;
+        margin-bottom: 69px;
+    }
+    .border p {
+        font-family: "proxima-nova";
+        font-size: 70px;
+        color: #696969;
+        margin-bottom: -166px;
+    }
+    .item {
+        width: 81%;
+        height: 1086px;
+        padding: 70px;
+        float: left;
+    }
+    .button img {
+        width: 183px;
+        height: 166px;
+        margin-top: 239px;
+    }
+    .border .img {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .img-header {
+        width: 1340px;
+        height: 500px;
+    }
+    .text-header {
+        position: absolute;
+        top: 29%;
+        left: 185%;
+        transform: translate(-50%, -50%);
+        font-family: "proxima-nova";
+        font-size: 133px;
+        line-height: 150%;
+        color: #FFFFFF;
+    }
+    .content {
+        position: absolute;
+        left: 332px;
+        top: 515px;
+    }
+    #content-h6 {
+        font-family: "proxima-nova";
+        font-size: 85px;
+        text-align: center;
+        letter-spacing: 0.25em;
+        color: #8F8F8F;
+    }
+    #content-a {
+        font-family: "proxima-nova";
+        font-size: 85px;
+        line-height: 80px;
+        text-align: center;
+        font-weight: bold;
+        color: #00182E;
+    }
+    .content-text {
+        position: absolute;
+        width: 1113px;
+        height: 52px;
+        left: 129px;
+        top: 824px;
+    }
+    section {
+        margin-top: 300px;
+        margin-left: 140px;
+        padding: 20px;
+        text-align: center;
+    }
+    .text {
+        font-family: "proxima-nova";
+        font-size: 14px;
+        line-height: 200%;
+        text-align: center;
+    }
+    p {
+        font-family: "proxima-nova";
+        color: #696969;
+        font-size: 16px;
+    }
+    .item {
+        width: 40%;
+        height: 400px;
+        padding: 15px;
+        float: left;
+    }
+    .border {
+        width: 400px;
+        box-shadow: 5px 9px 15px #d6d6d6;
+    }
+    img {
+        margin-top: 35px;
+        width: 100px;
+        height: 60px;
+    }
+    .button img {
+        margin-bottom: -31px;
+        width: 50px;
+        height: 50px;
+    }
+    section {
+        margin-top: 400px;
+        margin-left: 114px;
+        padding: 21px;
+        text-align: center;
+    }
+    .item {
+        width: 20%;
+        height: 900px;
+        padding: 158px;
+        float: left;
+        size: 200px;
+    }
+    /* Border */
+    .border {
+        width: 1114px;
+        height: 1085px;
+        ;
+        box-shadow: 5px 9px 15px #d6d6d6;
+        margin-left: -166px;
+    }
+    .border h4 {
+        font-size: 89px;
+        margin-left: 48px;
+        margin-bottom: 69px;
+    }
+    .border p {
+        font-family: "proxima-nova";
+        font-size: 70px;
+        color: #696969;
+        margin-bottom: -166px;
+    }
+    .button img {
+        width: 183px;
+        height: 166px;
+        margin-top: 239px;
+    }
+    .border .img {
+        display: none;
     }
 }
 
 @media only screen and (max-width: 320px) {
     .img-header {
-        width: 956px;
+        width: 854px;
         height: 418px;
     }
     .text-header {
         position: absolute;
-        top: 51%;
-        left: 168%;
+        top: 36%;
+        left: 137%;
         transform: translate(-50%, -50%);
-        font-family: Proxima Nova;
-        font-size: 77px;
+        font-family: proxima-nova;
+        font-size: 84px;
         line-height: 150%;
         color: #FFFFFF;
     }
@@ -126,7 +326,8 @@ img {
         top: 589px;
     }
     #content-h6 {
-        font-family: Proxima Nova;
+        font-family: "proxima-nova";
+        margin-left: -49px;
         font-size: 50px;
         line-height: 27px;
         /* identical to box height */
@@ -135,7 +336,8 @@ img {
         color: #8F8F8F;
     }
     #content-a {
-        font-family: Proxima Nova;
+        font-family: "proxima-nova";
+        margin-left: -79px;
         font-weight: bold;
         font-size: 54px;
         line-height: 55px;
@@ -143,31 +345,41 @@ img {
         color: #00182E;
     }
     /* Border */
+    section {
+        margin-top: 200px;
+        margin-left: 114px;
+        padding: 21px;
+        text-align: center;
+    }
     .item {
         width: 20%;
+        height: 864px;
         padding: 52px;
         float: left;
         size: 100px;
     }
     .border {
-        width: 921px;
+        width: 847px;
         height: 810px;
         box-shadow: 5px 9px 15px #d6d6d6;
         margin-left: -189px;
         margin-top: 85px;
     }
     .border h4 {
-        font-size: 70px;
-        margin-bottom: 50px;
+        font-size: 89px;
+        margin-left: 48px;
+        margin-bottom: 69px;
     }
     .border p {
+        font-family: "proxima-nova";
         font-size: 51px;
         color: #696969;
-        margin-bottom: 100px;
+        margin-bottom: -6px;
     }
     .button img {
         width: 183px;
         height: 166px;
+        margin-top: 10px;
     }
     .border .img {
         display: none;
